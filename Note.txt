@@ -1,0 +1,11 @@
+## Dependencies to add
+npx expo install 
+npx expo install @expensify/react-native-live-markdown
+npx expo install @expo/react-native-action-sheet
+npx expo install react-native-quick-base64
+npx expo install react-native-draggable-flatlist
+npx expo install expo-sqlite
+npx expo install expo-file-system expo-asset
+
+##run to migrate into prisma
+>>npx prisma migrate dev

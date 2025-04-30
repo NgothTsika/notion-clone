@@ -55,10 +55,7 @@ export default function RootLayout() {
         >
           <Stack>
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-            <Stack.Screen
-              name="doc-actions-sheet"
-              options={{ presentation: "modal" }}
-            />
+
             <Stack.Screen name="+not-found" />
           </Stack>
         </ThemeProvider>

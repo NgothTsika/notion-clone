@@ -1,11 +1,12 @@
 generator client {
   provider        = "prisma-client-js"
   previewFeatures = ["reactNative"]
+  // output = "./prisma/generated/client"
 }
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  provider = "sqlite" //"mysql"
+  url      = "file:./app.db"   //env("DATABASE_URL")
 }
 
 model User {
